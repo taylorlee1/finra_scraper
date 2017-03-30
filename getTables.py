@@ -163,8 +163,8 @@ def parseDate(browser,date):
             actions.click()
             keepClicking(E)
             
-        if len(D) > 3:
-            break
+        #if len(D) > 3:
+        #    break
     return D
 
 def keepClicking(E):
